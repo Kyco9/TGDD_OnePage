@@ -1,6 +1,8 @@
-﻿*{
+﻿* {
     margin: 0;
     padding: 0;
+    font-family: 'IntelOne Display', sans-serif;
+    color: white;
 }
 
 body {
@@ -8,11 +10,3 @@ body {
     width: 1920px;
     margin: 0 auto;
 }
-
-
-p {
-    font-family: 'IntelOne Display', sans-serif;
-    font-size: 28px;
-    color: white;
-}
-
