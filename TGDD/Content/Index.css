@@ -1,4 +1,4 @@
-﻿* {
+﻿/** {
     margin: 0;
     padding: 0;
     font-family: 'IntelOne Display', sans-serif;
@@ -6,7 +6,111 @@
 }
 
 body {
-    background-color: #0C011C;
+    background-color: #0C011C; 
     width: 1920px;
+    min-height:500px;
     margin: 0 auto;
+}
+
+.ProductAds {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.top{
+    height: 560px;
+    width: 1900px;
+    margin: 0 auto;
+}
+
+.Product {
+    width: 1920px;
+    height: 1344px;
+}
+
+div.background {
+    background-image: url('/Content/Image/Vector Smart Object copy 8.png');
+    background-color: white;
+    height: 800px;
+}
+div.background-2 {
+    background-image: url('/Content/Image/Vector Smart Object copy 8.png');
+    background-color: white;
+    height: 544px;
+}
+
+.info-product{
+    float: left;
+}
+
+.butt{
+    clear: both;
+}
+
+.News{
+    height: 500px;
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'IntelOne Display', sans-serif;
+}
+
+body {
+    width: 1920px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.container{
+    min-height: 1000px;
+    margin-top: 50px;
+}
+
+/*================================ProductAds================================*/
+.ProductAds {
+    width: 1300px;
+    height: 5000px;
+    margin: 0 auto;
+}
+
+.top{
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+.top img#CES {
+    float: left;
+    height: 458px;
+    width: 826px;
+    border-radius: 0px;
+}
+
+.top-inform{
+    float:right;
+
+}
+
+.middle-1{
+    clear: both;
+}
+
+
+
+/*================================Product================================*/
+.Product{
+    width: 1920px;
+    height: 1350px;
+}
+
+
+
+
+
+/*================================News================================*/
+.News{
+    width: 1920px;
+    height: 580px;
 }
