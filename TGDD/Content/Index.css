@@ -543,6 +543,26 @@ div.tit-box {
     
 }
 
+.tit-box img#flare1 {
+    mix-blend-mode: screen;
+    position: absolute;
+    top: -45px;
+    left: -174px;
+    width: 850px;
+    transform: revert;
+}
+
+.tit-box img#flare2 {
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 80px;
+    left: 550px;
+    width: 850px;
+}
+}
+
+
+
 .Product img#back-vetc-8 {
     position: absolute;
     width: 1920px;
@@ -558,13 +578,255 @@ img#back-vector-9 {
     left: 0px;
 }
 
+.list-product {
+    position: absolute;
+    top: 260px;
+    left: 310px;
+    width: 1250px;
+    height: 980px;
+    padding: 14px;
+}
+
+.info-product {
+    background-color: #fbfbfb;
+    width: 230px;
+    height: 470px;
+    float: left;
+    margin: 8px;
+}
+
+.info-product a.main-contain{
+    text-decoration: none;
+    color: #000;
+    transition: .2s
+}
+
+.info-product a:hover.main-contain h3 {
+    color: #294dff;
+}
 
 
+.item-label span {
+    border-radius: 2px;
+    font-size: 11px;
+    line-height: 12px;
+    display: inline-block;
+    margin-right: 4px;
+    padding: 3px;
+}
 
+.lb-tragop {
+    background-color: #f1f1f1;
+    color: #333;
+}
+.item-img {
+    height: 160px;
+}
+
+.item-img img.productimg {
+    width: 210px;
+    margin: 10px;
+}
+
+/*.item-img img.techProduct {
+   height: 40px;
+}
+*/
+
+
+.result-label {
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 0;
+    overflow: hidden;
+    max-width: 100%;
+    padding-right: 8px;
+    background: linear-gradient(to right,#faab08,#d42611);
+    margin-left: 10px;
+}
+
+
+.result-label span{
+    color: #fff;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-size: 10px;
+    line-height: 13px;
+    margin-left: 3px;
+    overflow: hidden;
+    padding: 4px 0 0 3px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-line-clamp: 2;
+    text-transform: uppercase;
+}
+
+.main-contain h3 {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 10px;
+    max-height: 36px;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.item-compare span {
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    color: #333;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 5px 10px;
+    padding: 4px 5px;
+}
+
+.item-txt-online {
+    color: #333;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 5px 10px;
+}
+
+.box-p {
+    margin: 5px 10px;
+}
+
+.price-old {
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    text-decoration: line-through;
+    display: inline;
+}
+
+.percent {
+    color: #444;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.price {
+    color: #222;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    margin: 5px 10px;
+}
+
+.item-gift {
+    color: #333;
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.utility{
+    margin: 5px 10px;
+}
+
+.utility p {
+    color: #222;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    column-count: 2;
+    column-fill: balance;
+}
+
+.utility ul{
+    margin: 8px 15px;
+}
+
+.utility ul li p span:first-child {
+    display: inline-block;
+    min-width: 50px;
+    vertical-align: top;
+    text-transform: uppercase;
+}
+
+
+button.view-product {
+    position: absolute;
+    width: 380px;
+    height: 50px;
+    left: 750px;
+    top: 1270px;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
 
 
 /*================================News================================*/
-.News{
+.News {
+    position: absolute;
     width: 1920px;
-    height: 580px;
+    height: 600px;
+    left: 0px;
+    top: 5400px;
+    background-color: #fff;
+}
+
+.News h1 {
+    position: absolute;
+    width: 318px;
+    height: 50px;
+    left: 782px;
+    top: 30px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    color: #000;
+}
+
+.newdetail {
+    position: absolute;
+    width: 1200px;
+    height: 450px;
+    top: 112px;
+    left: 328px;
+}
+
+.main-news{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.aside-news {
+    position: absolute;
+    width: 609px;
+    height: 450px;
+    left: 590px;
+
+}
+.info-news{
+    width: 580px;
+    float: left;
+    margin-bottom: 16px;
+}
+
+.info-news img {
+    width: 236px;
+    float: left;
+}
+
+.info-news .news-text{
+    float: right;
+    width: 330px;
+}
+
+.news-text h3{
+    margin-top: 10px
+}
+
+.news-text p {
+    margin-top: 10px;
+}
+
+.news-text span {
+    font-size: 12px;
+    color: #464646;
 }

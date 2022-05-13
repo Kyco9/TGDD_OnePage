@@ -132,6 +132,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Image\11th-gen-core-i7-.550.550.png" />
     <Content Include="Content\Image\Ảnh chụp Màn hình 2022-05-03 lúc 17.06 1.png" />
     <Content Include="Content\Image\Ảnh chụp Màn hình 2022-05-04 lúc 11.37 5.png" />
     <Content Include="Content\Image\CES_Floating_Windows 1.png" />
@@ -148,7 +149,10 @@
     <Content Include="Content\Image\H2_Panel_2_Angle_2 1.png" />
     <Content Include="Content\Image\H2_Panel_4_Desk 1.png" />
     <Content Include="Content\Image\Intel® Thread Director 1.png" />
+    <Content Include="Content\Image\labelseagames-50x50-20.png" />
     <Content Include="Content\Image\Layer 574 1.png" />
+    <Content Include="Content\Image\lenovo-yoga-9-600x600.jpg" />
+    <Content Include="Content\Image\maxresdefault.jpg" />
     <Content Include="Content\Image\Panel 3 Screen Boxes 6P8E 1.png" />
     <Content Include="Content\Image\Rectangle 236.png" />
     <Content Include="Content\Image\Triangle 1 copy 2 1.png" />
@@ -223,7 +227,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>63945</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44370/</IISUrl>
+          <IISUrl>https://localhost:44366/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
