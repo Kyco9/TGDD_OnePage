@@ -1,55 +1,4 @@
-﻿/** {
-    margin: 0;
-    padding: 0;
-    font-family: 'IntelOne Display', sans-serif;
-    color: white;
-}
-
-body {
-    background-color: #0C011C; 
-    width: 1920px;
-    min-height:500px;
-    margin: 0 auto;
-}
-
-.ProductAds {
-    margin: 0 auto;
-    margin-top: 100px;
-}
-
-.top{
-    height: 560px;
-    width: 1900px;
-    margin: 0 auto;
-}
-
-.Product {
-    width: 1920px;
-    height: 1344px;
-}
-
-div.background {
-    background-image: url('/Content/Image/Vector Smart Object copy 8.png');
-    background-color: white;
-    height: 800px;
-}
-div.background-2 {
-    background-image: url('/Content/Image/Vector Smart Object copy 8.png');
-    background-color: white;
-    height: 544px;
-}
-
-.info-product{
-    float: left;
-}
-
-.butt{
-    clear: both;
-}
-
-.News{
-    height: 500px;
-}*/
+﻿
 
 *{
     margin: 0;
@@ -59,7 +8,8 @@ div.background-2 {
 }
 
 body {
-    width: 1920px;
+    /*width: 1920px;*/
+    width: 100%;
     min-height: 500px;
     margin: 0 auto;
     background-color: #0C011C;
@@ -68,6 +18,7 @@ body {
 .container{
     min-height: 1000px;
     margin-top: 50px;
+    width: 100%;
 }
 
 /*================================ProductAds================================*/
@@ -248,6 +199,7 @@ body {
     top: 314px;
     color: white;
     font-size: 26px;
+    text-align: center;
 }
 
 .box-text p {
@@ -559,8 +511,22 @@ div.tit-box {
     left: 550px;
     width: 850px;
 }
+
+.tit-box img#pattern-tit1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 150px;
+    width: 300px;
+    border-radius: 100px;
 }
 
+.tit-box img#pattern-tit2 {
+    position: absolute;
+    left: 837px;
+    top: -9px;
+    width: 311px;
+}
 
 
 .Product img#back-vetc-8 {
@@ -830,3 +796,376 @@ button.view-product {
     font-size: 12px;
     color: #464646;
 }
+
+.top img#CES-mobile{
+    display: none;
+}
+/*==================================Mobile: width<740px==================================*/
+@media only screen and (max-width: 739px) {
+    body{
+        width: 100%;
+        max-width: 740px;
+        background-color: #fff;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 740px;
+        background-color: #0C011C;
+        margin-top: 40px;
+    }
+
+    .ProductAds {
+        width: 100%;
+        max-width: 740px;
+        height: 2440px;
+    }
+
+    .top {
+        width: 100%;
+        max-width: 740px;
+        left: 0px;
+        top: 45px;
+    }
+
+    .top-inform{
+        left: 0px;
+        width: 100%;
+    }
+
+    .top-inform img#logo {
+        left: 4%;
+        top: 0%;
+        width: 36%;
+    }
+
+    .top img#ces-blur {
+        display: none;
+    }
+
+    .top-inform h1 {
+        width: 280px;
+        height: 56px;
+        left: 6%;
+        top: 57px;
+        font-size: 25px;
+        line-height: 110%;
+        color: #FFFFFF;
+    }
+
+    .top-inform p {
+        width: 250px;
+        height: 40px;
+        left: 6%;
+        top: 124px;
+        font-size: 15px;
+        line-height: 110%;
+    }
+
+    .top-inform img#intel-core {
+        width: 195px;
+        height: 75px;
+        left: 6%;
+        top: 185px;
+    }
+
+    .top img#CES {
+        display: none;
+        
+    }
+
+    .top img#CES-mobile {
+        position: absolute;
+        left: 0px; 
+        top: 268px;
+        width: 100%;
+        display: block;
+    }
+
+
+    /*=================================middle1====================================*/
+    .middle-1,
+    .middle-1-inform,
+    .middle-2,
+    .bottom{
+        width: 100%;
+        max-width: 740px;
+    }
+
+    .middle-1{
+        top: 594px;
+    }
+
+    .middle-1-inform h1 {
+        width: 58%;
+        height: 56px;
+        left: 22%;
+        top: 2%;
+        font-size: 25px;
+        line-height: 110%;
+
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .middle-1-inform p {
+        width: 74%;
+        height: 50px;
+        left: 14%;
+        top: 12%;
+        font-size: 15px;
+        line-height: 110%;
+        text-align: center;
+    }
+
+    .middle-1 img#ads {
+        width: 140%;
+        height: 68%;
+        left: -21%;
+        top: 16%;
+    }
+
+/*===========================middle 2=============================*/
+    .middle-2 {
+        top: 1236px;
+    }
+
+    .top-text h1 {
+        width: 57%;
+        height: 56px;
+        left: 21%;
+        top: 1%;
+        font-size: 25px;
+        line-height: 110%;
+        text-align: center;
+    }
+
+    .top-text p {
+        width: 80%;
+        height: 70px;
+        left: 10%;
+        top: 6%;
+        font-size: 15px;
+        text-align: center;
+    }
+    .box-text img#gr-1 {
+        /*width: 155px;
+        height: 75px;
+        left: 196px;
+        top: 188px;*/
+        width: 40%;
+        height: 5.5%;
+        left: 51%;
+        top: 14%;
+    }
+    .box-text img#gr-2 {
+        /*width: 176.54px;
+        height: 49.69px;
+        left: 166px;
+        top: 166px;*/
+        width: 51%;
+        height: 5.5%;
+        left: 38%;
+        top: 11.5%;
+    }
+    .box-text h3 {
+        /*width: 116px;
+        height: 9px;
+        left: 215px;
+        top: 198px;*/
+        font-size: 10px;
+        width: 30%;
+        height: 2%;
+        left: 57%;
+        top: 15%;
+    }
+    .box-text p {
+        /*width: 120px;
+        height: 35px;
+        left: 213px;
+        top: 218px;*/
+        font-size: 8px;
+        width: 31%;
+        height: 3%;
+        left: 56%;
+        top: 16.4%;
+    }
+    .middle-2 img#panel-3 {
+        width: 100%;
+        height: 21.7%;
+        left: 0%;
+        top: 16.4%;
+    }
+    .info-left h4 {
+        width: 34%;
+        height: 2%;
+        left: 10.6%;
+        top: 34%;
+        font-size: 15px;
+    }
+    .info-left p {
+        width: 38%;
+        height: 8%;
+        left: 10.6%;
+        top: 35.5%;
+        font-size: 10px;
+    }
+    .info-right h4 {
+        position: absolute;
+        width: 30%;
+        height: 2%;
+        left: 54%;
+        top: 36.8%;
+        font-size: 15px;
+    }
+    .info-right p {
+        width: 36%;
+        height: 5%;
+        left: 54%;
+        top: 38.3%;
+        font-size: 10px;
+    }
+
+/*===========================bottom=============================*/
+
+    .bottom {
+        top: 1790px;
+    }
+
+
+    .bottom img#blue-back {
+        width: 174%;
+        height: 33%;
+        left: -39%;
+        top: 12.6%;
+    }
+    .bottom img#H2-Panel4{
+        top: 21.5%;
+        left: 0%;
+        width: 100%;
+        height: 18%;
+    }
+    .bottom img#vector-pattern {
+        width: 100%;
+        height: 20%;
+        top: 20%;
+        left: 0%;
+    }
+
+    .bot-tit h1 {
+        width: 80%;
+        height: 6%;
+        left: 10%;
+        top: 4%;
+        font-size: 25px;
+    }
+
+    .bot-tit p {
+        width: 88%;
+        height: 7%;
+        left: 5.6%;
+        top: 9.5%;
+        font-size: 15px;
+    }
+
+    .box-info-top img#triangle1 {
+        top: 17.6%;
+        left: 15.6%;
+        width: 4%;
+        height: 2%;
+    }
+    .box-info-top img#gr-3 {
+        width: 72%;
+        left: 15.5%;
+        top: 16.6%;
+        height: 7%;
+    }
+    .box-info-top img#gr-4 {
+        width: 60%;
+        left: 9%;
+        top: 14.8%;
+        height: 4%;
+    }
+    .box-info-top h5 {
+        width: 64%;
+        left: 22%;
+        top: 18%;
+        height: 2%;
+        font-size: 15px;
+    }
+    .box-info-top p {
+        top: 21%;
+        left: 22%;
+        width: 60%;
+        height: 2%;
+        font-size: 12px;
+    }
+
+    .box-info-left img#triangle2 {
+        width: 4%;
+        height: 2%;
+        left: 9%;
+        top: 39.5%;
+    }
+    .box-info-left img#gr-5 {
+        width: 30%;
+        height: 11.4%;
+        left: 13%;
+        top: 38.4%;
+    }
+    .box-info-left img#gr-6 {
+        width: 53.4%;
+        height: 4%;
+        top: 36.8%;
+        left: -7%;
+    }
+    .box-info-left h5 {
+        width: 20%;
+        height: 2%;
+        left: 18%;
+        top: 40.4%;
+        font-size: 15px;
+    }
+    .box-info-left p {
+        width: 22%;
+        height: 6%;
+        left: 18%;
+        top: 44.7%;
+        font-size: 12px;
+    }
+
+    .box-info-right img#triangle3 {
+        width: 4%;
+        height: 2%;
+        left: 50%;
+        top: 39.5%;
+    }
+    .box-info-right img#gr-7 {
+        width: 30%;
+        height: 16%;
+        top: 38.5%;
+        left: 53.8%;
+    }
+    .box-info-right img#gr-8 {
+        width: 53.4%;
+        height: 4%;
+        top: 36.8%;
+        left: 36%;
+    }
+    .box-info-right h5 {
+        font-size: 15px;
+        width: 25%;
+        height: 5%;
+        left: 56%;
+        top: 40.4%;
+    }
+    .box-info-right p {
+        width: 25%;
+        height: 6%;
+        left: 56%;
+        top: 46%;
+        font-size: 12px;
+    }
+}
+
+

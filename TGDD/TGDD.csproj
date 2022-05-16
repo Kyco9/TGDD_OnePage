@@ -135,6 +135,7 @@
     <Content Include="Content\Image\11th-gen-core-i7-.550.550.png" />
     <Content Include="Content\Image\Ảnh chụp Màn hình 2022-05-03 lúc 17.06 1.png" />
     <Content Include="Content\Image\Ảnh chụp Màn hình 2022-05-04 lúc 11.37 5.png" />
+    <Content Include="Content\Image\CES_Floating_Mobile 1.png" />
     <Content Include="Content\Image\CES_Floating_Windows 1.png" />
     <Content Include="Content\Image\core-family-centered-i5i9i7-rgb-01 1.png" />
     <Content Include="Content\Image\Fill 311.png" />
@@ -156,6 +157,8 @@
     <Content Include="Content\Image\Panel 3 Screen Boxes 6P8E 1.png" />
     <Content Include="Content\Image\Rectangle 236.png" />
     <Content Include="Content\Image\Triangle 1 copy 2 1.png" />
+    <Content Include="Content\Image\Vector Smart Object copy 6.png" />
+    <Content Include="Content\Image\Vector Smart Object copy 7.png" />
     <Content Include="Content\Image\Vector Smart Object copy 8.png" />
     <Content Include="Content\Image\Vector Smart Object copy 9.png" />
     <Content Include="Content\Index.css" />
@@ -227,7 +230,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>63945</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44366/</IISUrl>
+          <IISUrl>https://localhost:44332/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
